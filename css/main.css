@@ -2727,7 +2727,7 @@ hr {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #9affff;
+  background: #2a8a3e;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2774,6 +2774,15 @@ body {
   opacity: 0.85;
 }
 .post {
+  width: 500px;
+  margin: auto;
+  background-color: rgba(0,0,0,0.3);
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.post-content {
   width: 500px;
   margin: auto;
   background-color: rgba(0,0,0,0.3);
