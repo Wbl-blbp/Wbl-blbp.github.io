@@ -2728,7 +2728,7 @@ hr {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #1a4157;
+  background: #7e128b;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2800,7 +2800,7 @@ body {
 .footer-inner {
   opacity: 1;
   background-color: #f0f;
-  display: block;
+  display: none;
 }
 .header-inner {
   float: left;
@@ -2810,4 +2810,7 @@ body {
 .menu-item-home:hover a img {
   width: 50px;
   opacity: 1;
+}
+.logo-line {
+  display: none;
 }
