@@ -1625,9 +1625,10 @@ pre code {
   width: 100%;
 }
 .with-love {
-  color: #ff0000;
+  color: #00ff00;
   display: inline-block;
   margin: 0 5px;
+  animation: icon-animate 1.33s ease-in-out infinite;
 }
 @-moz-keyframes icon-animate {
   0%, 100% {
@@ -2727,7 +2728,7 @@ hr {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #2a8a3e;
+  background: #1a4157;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2761,14 +2762,8 @@ body {
   background-attachment: fixed;
   background-position: 50% 50%;
 }
-.content-wrap {
-  opacity: 0.85;
-}
 .sidebar {
   opacity: 0.85;
-}
-.header-inner {
-  background: rgba(255,255,255,0.85);
 }
 .popup {
   opacity: 0.85;
@@ -2776,18 +2771,43 @@ body {
 .post {
   width: 500px;
   margin: auto;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(255,0,0,0.4);
   text-align: center;
   margin-top: 50px;
   padding: 20px;
   border-radius: 20px;
 }
 .post-content {
+  color: #000;
   width: 500px;
   margin: auto;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(255,255,255,0.4);
   text-align: center;
   margin-top: 50px;
   padding: 20px;
   border-radius: 20px;
+}
+.post-title-link {
+  color: #000;
+}
+.btn {
+  color: #000;
+}
+.footer {
+  opacity: 1;
+  display: none;
+}
+.footer-inner {
+  opacity: 1;
+  background-color: #f0f;
+  display: block;
+}
+.header-inner {
+  float: left;
+  height: 10px;
+  background-color: rgba(255,255,255,0.4);
+}
+.menu-item-home:hover a img {
+  width: 50px;
+  opacity: 1;
 }
